@@ -1,0 +1,52 @@
+.oversize-tshirt-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.oversize-tshirt-banner{
+    width: 100%;
+    height: auto;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oversize-tshirt-banner img{
+width: 100%;
+}
+.oversize-tshirt-page-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 45px 0 45px;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .oversize-tshirt-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .oversize-tshirt-page-container{
+        padding: 0 10px 0 10px;
+    }
+    .oversize-tshirt-banner{
+        padding-bottom:10px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .oversize-tshirt-section{
+        width: 100%;
+        padding-top: 5.16rem; 
+        height: auto;
+    }
+    .oversize-tshirt-page-container{
+        padding: 0 10px 0 10px;
+    }
+   
+  }

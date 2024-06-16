@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Heebo', sans-serif;
+}
+
+.fil-sec{
+    width: 25%;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+}
+/* .fil-sec::-webkit-scrollbar {
+    display: none;
+} */
+.product-sec{
+    width: 75%;
+    height: auto;
+}
+.product-sec::-webkit-scrollbar {
+    display: none;
+}
+.col-filter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.open-filter-btn{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px dashed black;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.disappire{
+    display: none;
+}
+.pages-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.pages-banner{
+    width: 100%;
+    height: auto;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages-banner img{
+width: 100%;
+}
+.pages-page-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 45px 0 45px;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .pages-page-container{
+        padding: 10px 10px 0 10px;
+    }
+    .pages-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .fil-sec {
+        display: none;
+      }
+      .product-sec{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .pages-page-container{
+        padding: 10px 10px 0 10px;
+    }
+    .product-sec h2{
+        font-size: 18px;
+    }
+    .pages-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .fil-sec {
+        display: none;
+      }
+      .product-sec{
+        width: 100%;
+        height: auto;
+    }
+  }
+

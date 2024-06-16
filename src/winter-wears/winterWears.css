@@ -1,0 +1,52 @@
+
+.winter-w-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.winter-w-banner{
+    width: 100%;
+    height: auto;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winter-w-banner img{
+width: 100%;
+}
+.winter-w-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 30px 45px 0 45px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .winter-w-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .winter-w-container{
+        padding: 0 10px 0 10px;
+    }
+    .winter-w-banner{
+        padding-bottom: 10px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .winter-w-section{
+        width: 100%;
+        padding-top: 5.16rem; 
+        height: auto;
+    }
+    .winter-w-container{
+        padding: 0 10px 0 10px;
+    }
+  }

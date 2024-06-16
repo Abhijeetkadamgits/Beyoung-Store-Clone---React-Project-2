@@ -1,0 +1,350 @@
+.home-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.home-container{
+    width: 100%;
+    height: auto;
+}
+.home-top-img{
+    width: 100%;
+    height: 450px;
+}
+.home-top-img img{
+    width: 100%;
+    height: 100%;
+}
+.home-main-content{
+    width: 100%;
+}
+.dis-coop-sec{
+    padding: 30px 45px 0 45px;
+}
+.home-duo-img{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.duo-item{
+    height: 400px;
+    border-radius: 10px;
+}
+.duo-item img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hot-deals{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+.hd-head{
+    border-left: 5px solid rgb(255, 221, 0);
+   padding: 0 0 0 10px;
+}
+.hed-lin{
+    padding: 0 0 20px 0;
+}
+.tag-line{
+    padding-left: 15px;
+}
+.new-arrivals{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+
+.home-banner{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home-banner img{
+    width: 100%;
+}
+.bsp-sec{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bsp-container{
+    width: 100%;
+    padding: 30px 45px 20px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 231, 231);
+}
+.bsp-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.bsp-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.bsp-body img{
+    width: 100%;
+    border-radius: 10px;
+}
+.hb-2{
+    margin-top: 30px;
+}
+.for-man-female{
+        padding: 10px;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, rgba(248, 235, 39, 0.00) 0%, #F8EB27 48.11%, rgba(248, 235, 39, 0.00) 100%);
+        width: 100%;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 30px;
+}
+
+.shirts-container{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+
+.shirts-aria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.shirts-aria a{
+    height: 450px;
+    
+}
+.shirts-aria a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bottomwear-container{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+.bottomwear-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bottomwear-img img{
+    width: 100%;
+}
+
+.women-container{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+.review-by-customer{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.review-thumbnel{
+    width: 77%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review-thumbnel a{
+    position: relative;
+    bottom: 70px;
+}
+.review-thumbnel img{
+    width: 90%;
+}
+.review-carousel{
+    width: 22.5%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-banner-bb{
+    width: 100%;
+}
+.home-banner-bb img{
+    width: 100%;
+}
+
+.shopl-container{
+    width: 100%;
+    padding: 40px 45px 0 45px;
+}
+
+.shop-by-collection{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+.tranding-section{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+.featured-on-secton{
+    width: 100%;
+    padding: 30px 45px 0 45px;
+}
+.featured-on-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar{
+    width: 42%;
+    height: 5px;
+    background-color: #F8EB27;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .home-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .home-top-img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .review-by-customer{
+        width: 100%;
+        padding: 10px 10px 0 10px;
+        height: 30vh;
+    }
+    .review-thumbnel a{
+        position: relative;
+        bottom: 50px;
+        font-size: 12px;
+    }
+    .featured-on-head h2{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .home-top-img{
+        width: 100%;
+        height: 200px;
+    }
+    .home-section{
+        padding-top: 5.16rem;   
+    }
+    .dis-coop-sec{
+        padding: 0 10px 0 0;
+    }
+    .home-duo-img{
+        padding: 10px 10px 0 10px;
+        gap: 10px;
+    }
+    .duo-item{
+        height: auto;
+        border-radius: 10px;
+    }
+    .hot-deals{
+        width: 100%;
+        padding: 10px 10px 0 10px;
+    }
+    .new-arrivals{
+        width: 100%;
+        padding: 10px 10px 0 10px;
+    }
+    .home-banner{
+        padding: 10px 10px 0 10px; 
+    }
+    .bsp-sec{
+        padding: 0;
+    }
+    .bsp-container{
+        padding: 20px 20px 20px 20px;
+    }
+    .bsp-head .hd-head{
+        font-size: 18px;
+    }
+    .hb-2{
+        margin-top: 10px;
+    }
+    .for-man-female{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .shirts-container{
+        padding: 10px 10px 0 10px;
+    }
+    .shirts-aria a{
+        height: auto;
+    }
+    .bottomwear-container{
+        padding: 10px 10px 0 10px;
+    }
+    .women-container{
+        padding: 10px 10px 0 10px;
+    }
+    .review-by-customer{
+        width: 100%;
+        padding: 10px 10px 0 10px;
+        height: 20vh;
+    }
+    .review-thumbnel a{
+        position: relative;
+        bottom: 30px;
+        font-size: 12px;
+    }
+    .shopl-container{
+        padding: 10px 10px 0 10px;
+    }
+    .shop-by-collection{
+        padding: 10px 10px 0 10px;
+    }
+    .tranding-section{
+        padding: 10px 10px 0 10px;
+    }
+    .featured-on-secton{
+        padding: 10px 10px 0 10px;
+    }
+    .bar{
+        width: 32%;
+        height: 5px;
+        background-color: #F8EB27;
+    }
+    .featured-on-head h2{
+        font-size: 18px;
+    }
+}

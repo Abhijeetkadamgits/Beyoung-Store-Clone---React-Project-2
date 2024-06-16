@@ -1,0 +1,98 @@
+.womend-section{
+    background-color: #ffffff;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.womend-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.drop-con{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.d-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.d-content a:hover{
+    color: rgb(255, 238, 0);
+    font-weight: bolder;
+}
+.d-img{
+    height: 300px;
+}
+.d-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* women section */
+
+.women-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.women-banner{
+    width: 100%;
+    height: auto;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women-banner img{
+width: 100%;
+}
+.women-page-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 45px 0 45px;
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .women-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .women-page-container{
+        padding: 20px 10px 0 10px;
+    }
+    .women-banner{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .women-section{
+        width: 100%;
+        padding-top: 5.16rem; 
+        height: auto;
+    }
+    .women-page-container{
+        padding: 20px 10px 0 10px;
+    }
+    .women-banner{
+        padding-bottom: 0;
+    }
+  }

@@ -1,0 +1,52 @@
+
+.u-shirt-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.u-shirt-banner{
+    width: 100%;
+    height: auto;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u-shirt-banner img{
+width: 100%;
+}
+.u-shirt-page-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 45px 0 45px;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .u-shirt-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .u-shirt-page-container{
+        padding: 0 10px 0 10px;
+    }
+    .u-shirt-banner{
+        padding-bottom:10px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .u-shirt-section{
+        width: 100%;
+        padding-top: 5.16rem; 
+        height: auto;
+    }
+    .u-shirt-page-container{
+        padding: 0 10px 0 10px;
+    }
+  }

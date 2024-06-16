@@ -1,0 +1,27 @@
+/* Add to wishlist btn */
+.add-wishlist{
+    position: absolute;
+    right: 10px;
+  }
+  .add-w-container{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .del-w-container{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(255, 221, 0);
+  }

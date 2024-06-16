@@ -1,0 +1,61 @@
+/* combo section */
+
+.combo-section{
+    width: 100%;
+    padding-top: 6.875rem;
+    height: auto;
+}
+.combo-banner{
+    width: 100%;
+    height: auto;
+    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.combo-banner img{
+width: 100%;
+}
+.combo-page-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 45px 0 45px;
+    gap: 20px;
+}
+
+.combo-categori-filter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .combo-section{
+        width: 100%;
+        padding-top: 5.56rem;
+        height: auto;
+    }
+    .combo-page-container{
+        padding: 10px 10px 0 10px;
+    }
+    .combo-banner{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+   
+    .combo-section{
+        width: 100%;
+        padding-top: 5.16rem; 
+        height: auto;
+    }
+    .combo-page-container{
+        padding: 10px 10px 0 10px;
+    }
+  }
